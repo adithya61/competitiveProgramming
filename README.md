@@ -4,68 +4,72 @@ using namespace std;
 int main(){
 ios::sync_with_stdio(false);
 cin.tie(NULL);
-   
 int t;
 cin>>t;
-
   while(t--){
-
-     
     }
-
     return 0;
 }
+---
+
+### Loops:
 
 
-
--------------------------------------------------------------------------------------------------------------------
-
-loooooooops:-
-
-
-
+```
 for(int i = 0; i<n; i++){
 }
+```
 
-
+```
 for(int j = 0; j<n; j++){
 }
+```
 
-
+```
 for(int k = 0; k<n; k++){
 }
+```
 
-
+```
 for(int l= 0; l<n; l++){
 }
+```
 
+---
 
-------------------------------------------------------------------------------------------------------------------
+### Nested Loops:
 
-Nested loops
-
+```
 for(int i = 0; i<n; i++){
   for(int j = 0; j<n; j++){
 
   }
 }
-------------------------------------------------------------------------------------------------------------------------------
+```
 
-to convert to hex
+---
+
+
+* To convert dec to hex
 int n = 100;
-cout<<std::hex<<n;
 
-------------------------------------------------------------------------------------------------------------------------------
+`cout<<std::hex<<n;`
 
-while reading string and int;
+---
+
+### While reading string and int;
+
+```
 int n;
 cin>>n;
 cin.ignore();
 string p
 cin>>p;
+```
 
-------------------------------------------------------------------------------------------------------------------------------
-showpos show positive or negative number 
+---
+
+### Showpos show positive or negative number:
 setw set the width
 ---
 ```
@@ -77,10 +81,12 @@ setw set the width
         }
 ```
 * Prints:
+```
 1 2
 2 3
 4 5
 5 3
 9 10
+```
 ---
 
