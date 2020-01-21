@@ -1,6 +1,6 @@
+```
 #include<bits/stdc++.h>
 using namespace std;
-
 int main(){
 ios::sync_with_stdio(false);
 cin.tie(NULL);
@@ -10,6 +10,7 @@ cin>>t;
     }
     return 0;
 }
+```
 ---
 
 ### Loops:
@@ -70,7 +71,7 @@ cin>>p;
 ---
 
 ### Showpos show positive or negative number:
-setw set the width
+    setw set the width
 ---
 ```
 
